@@ -20,7 +20,7 @@ def main():
         data_dict[filename] = data  
   
     #plot_data_comp_baseline(data_dict, 'Raman Shift', 'Raw Data', labels, title, SavePath, SAVE) 
-    plot_data_original(data_dict, 'Raman Shift', 'Raw Data', labels, title, SavePath, SAVE) 
+    plot_data_original(data_dict, 'Raman Shift', 'Raw Data', labels, title, SavePath, SHOW) 
     #plot_data_without_baseline(data_dict, 'Raman Shift', 'Raw Data', labels, title, SavePath, SHOW)  
   
 if __name__ == '__main__':  
